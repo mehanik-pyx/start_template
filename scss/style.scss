@@ -1,0 +1,38 @@
+@import "colors";
+
+body {
+	font-family: quicksand;
+	color: $grayText;
+	height: 2000px;
+/*	background-color: $blueBG;
+*/}
+
+.container{
+	width: 940px;
+}
+
+.header{
+	background-color: $headerBG;
+
+	.logotext{
+		/*Style for "travler"*/
+		background-image: linear-gradient(-38deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+/*		background-clip: text;
+*/		text-shadow: 0 1px 0 #ffffff;
+		color: #6017a3;
+		font-family: "Nexa Black";
+		font-size: 39px;
+		font-weight: 700;
+		line-height: 32.03px;
+	}
+}
+
+.bridge{
+	height: 540px;
+	background: url(../img/Travler-bridge.png) no-repeat center center #2d2d2d;
+}
+
+.map{
+	height: 768px;
+	background-color: #2d2d2d;
+}
