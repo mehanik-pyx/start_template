@@ -1,7 +1,8 @@
-@import "colors";
+@import 'colors';
+@import 'fonts';
 
 body {
-	font-family: quicksand;
+	font-family: Nexa-Black;
 	color: $grayText;
 	height: 2000px;
 /*	background-color: $blueBG;
@@ -14,16 +15,38 @@ body {
 .header{
 	background-color: $headerBG;
 
-	.logotext{
+	img{
+		float: left;
+	}
+
+	.logoText{ 
 		/*Style for "travler"*/
+		float: left;
 		background-image: linear-gradient(-38deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
-/*		background-clip: text;
-*/		text-shadow: 0 1px 0 #ffffff;
+		background-clip: text;
+		text-shadow: 0 1px 0 #ffffff;
 		color: #6017a3;
-		font-family: "Nexa Black";
+		font-family: Nexa-Black;
 		font-size: 39px;
 		font-weight: 700;
 		line-height: 32.03px;
+
+		p{
+			margin: 0;
+			padding: 0;
+		}
+
+		.underline{
+			// Style for "Get the ad"
+			text-shadow: 0 1px 0 #ffffff;
+			color: #7d7d7d;
+			font-family: "PT Sans";
+			font-size: 12px;
+			font-style: italic;
+			line-height: 41px;
+			// Text style for "G, et the"
+			letter-spacing: 0.3px;
+		}
 	}
 }
 

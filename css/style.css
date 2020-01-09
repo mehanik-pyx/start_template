@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Nexa-Black;
+  src: url(../fonts/Nexa-Black.ttf); }
+
+@font-face {
+  font-family: Nexa-Black-Italic;
+  src: url(../fonts/Nexa-Black-Italic.ttf); }
+
+@font-face {
+  font-family: Nexa-Bold;
+  src: url(../fonts/Nexa-Bold.ttf); }
+
+@font-face {
+  font-family: Nexa-Bold-Italic;
+  src: url(../fonts/Nexa-Bold-Italic.ttf); }
+
+@font-face {
+  font-family: Nexa-Book;
+  src: url(../fonts/Nexa-Book.ttf); }
+
+@font-face {
+  font-family: Nexa-Book-Italic;
+  src: url(../fonts/Nexa-Book-Italic.ttf); }
+
+@font-face {
+  font-family: Nexa-Regular;
+  src: url(../fonts/Nexa-Regular.ttf); }
+
+@font-face {
+  font-family: Nexa-Regular-Italic;
+  src: url(../fonts/Nexa-Regular-Italic.ttf); }
+
+@font-face {
+  font-family: Nexa-XBold;
+  src: url(../fonts/Nexa-XBold.ttf); }
+
+@font-face {
+  font-family: Nexa-XBold-Italic;
+  src: url(../fonts/Nexa-XBold-Italic.ttf); }
+
+body {
+  font-family: Nexa-Black;
+  color: #7d7d7d;
+  height: 2000px;
+  /*	background-color: $blueBG;
+*/ }
+
+.container {
+  width: 940px; }
+
+.header {
+  background-color: #ebebeb; }
+  .header img {
+    float: left; }
+  .header .logoText {
+    /*Style for "travler"*/
+    float: left;
+    background-image: -webkit-linear-gradient(128deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: -o-linear-gradient(128deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background-image: linear-gradient(-38deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 1px 0 #ffffff;
+    color: #6017a3;
+    font-family: Nexa-Black;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 32.03px; }
+    .header .logoText p {
+      margin: 0;
+      padding: 0; }
+    .header .logoText .underline {
+      text-shadow: 0 1px 0 #ffffff;
+      color: #7d7d7d;
+      font-family: "PT Sans";
+      font-size: 12px;
+      font-style: italic;
+      line-height: 41px;
+      letter-spacing: 0.3px; }
+
+.bridge {
+  height: 540px;
+  background: url(../img/Travler-bridge.png) no-repeat center center #2d2d2d; }
+
+.map {
+  height: 768px;
+  background-color: #2d2d2d; }
